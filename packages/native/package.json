@@ -5,6 +5,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build:web": "expo build:web",
     "eject": "expo eject",
     "storybook": "start-storybook -h 0.0.0.0",
     "build-storybook": "build-storybook",
