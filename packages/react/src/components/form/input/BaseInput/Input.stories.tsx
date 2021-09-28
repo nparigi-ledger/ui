@@ -27,7 +27,7 @@ export const Default = (args: InputProps): JSX.Element => {
 export const RenderSideExemple = (): JSX.Element => {
   const [disabled, setDisabled] = useState(false);
   const [error, setError] = React.useState(false);
-  const [value, setValue] = React.useState("test@ledger.fr");
+  const [value, setValue] = React.useState("test42@ledger.fr");
 
   const onChange = (e: React.FormEvent<HTMLInputElement>) => setValue(e.target.value);
 
